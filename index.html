@@ -363,6 +363,17 @@
       
         }
       /* Injected CSS Code */
+  #input_3,
+  #input_6, #input_7, #input_9, #input_12, #input_16, #input_17, #input_8, #input_13, #input_14, #input_15,
+  #input_21, #input_24, #input_26, #input_27, #input_29,
+  #input_31, #input_32, #input_52, #input_71, #input_53, #input_72, #input_54, #input_73, #input_55, #input_74,
+  #input_56, #input_75, #input_57, #input_76, #input_58, #input_77, #input_59, #input_78, #input_60, #input_79,
+  #input_61, #input_80, #input_62, #input_81, #input_63, #input_82, #input_64, #input_83, #input_65, #input_84,
+  #input_66, #input_85, #input_67, #input_86, #input_68, #input_87, #input_69, #input_88, #input_70, #input_89 {
+    background: none;
+    border: 1px solid #cae2ab;
+    color: #cae2ab;
+  }
   </style>
   
   <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.54518" type="text/javascript"></script>
@@ -1440,19 +1451,12 @@
               })
     
         let dropdowns = document.querySelectorAll('.form-dropdown');
-        // Iterate over the NodeList and log the id of each dropdown
-        //     dropdowns.forEach(dropdown => {
-        //   console.log(dropdown.id);
-        // });
 
         // If you need to store the ids in an array
         let dropdownIds = [];
         dropdowns.forEach(dropdown => {
           dropdownIds.push(dropdown.id);
         });
-
-        // Log the array of ids
-        // console.log(dropdownIds);
 
         dropdownIds.forEach(dropdown => {
           document.getElementById(dropdown).style.color = 'rgba(214,226,186,255)';
