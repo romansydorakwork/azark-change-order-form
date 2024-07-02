@@ -363,17 +363,57 @@
       
         }
       /* Injected CSS Code */
-  #input_3,
-  #input_6, #input_7, #input_9, #input_12, #input_16, #input_17, #input_8, #input_13, #input_14, #input_15,
-  #input_21, #input_24, #input_26, #input_27, #input_29,
-  #input_31, #input_32, #input_52, #input_71, #input_53, #input_72, #input_54, #input_73, #input_55, #input_74,
-  #input_56, #input_75, #input_57, #input_76, #input_58, #input_77, #input_59, #input_78, #input_60, #input_79,
-  #input_61, #input_80, #input_62, #input_81, #input_63, #input_82, #input_64, #input_83, #input_65, #input_84,
-  #input_66, #input_85, #input_67, #input_86, #input_68, #input_87, #input_69, #input_88, #input_70, #input_89 {
+      #input_2 {
+        background: #cae2ab;
+        color: #12121c;
+      }
+
+  #input_3, #input_6, #input_7, #input_9, #input_12, #input_16, #input_17, #input_8, #input_13, #input_14, #input_15, #input_21, #input_24, #input_26, #input_27, #input_29
+  {
+    background: none;
+    border: 1px solid #cae2ab;
+    color: #cae2ab;
+  } 
+
+  #input_134, #input_136, #input_138, #input_140, #input_142, #input_143, #input_145, #input_147, #input_149, #input_151,
+  #input_30, #input_31, #input_32, #input_33, #input_34, #input_35, #input_36, #input_37, #input_38, #input_39, #input_40, #input_41, #input_42, #input_43,
+  #input_44, #input_45, #input_46, #input_47, #input_48, #input_49, #input_50, #input_51 {
     background: none;
     border: 1px solid #cae2ab;
     color: #cae2ab;
   }
+
+  #ul_30, #ul_31, #ul_32, #ul_33, #ul_34, #ul_35, #ul_36, #ul_37, #ul_38, #ul_39, #ul_40, #ul_41, #ul_42, #ul_43,
+  #ul_44, #ul_45, #ul_46, #ul_47, #ul_48, #ul_49, #ul_50, #ul_51,
+  #ul_134, #ul_136, #ul_138, #ul_140, #ul_142, #ul_143, #ul_145, #ul_147, #ul_149, #ul_151 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none; 
+  }
+
+  #ul_30 li, #ul_31 li, #ul_32 li, #ul_33 li, #ul_34 li, #ul_35 li, #ul_36 li, #ul_37 li, #ul_38 li, #ul_39 li, #ul_40 li, #ul_41 li, #ul_42 li, #ul_43 li,
+  #ul_44 li, #ul_45 li, #ul_46 li, #ul_47 li, #ul_48 li, #ul_49 li, #ul_50 li, #ul_51 li,
+  #ul_134 li, #ul_136 li, #ul_138 li, #ul_140 li, #ul_142 li, #ul_143 li, #ul_145 li, #ul_147 li, #ul_149 li, #ul_151 li  {
+      border: 1px solid #cae2ab;
+      margin-top: -1px; /* Prevent double borders */
+      background-color:transparent;
+      padding: 9px;
+      text-decoration: none;
+      font-size: 16px;
+      color: #cae2ab;
+      display: block;
+    }
+
+    #input_20, #input_16, #input_17 {
+      color: #cae2ab;
+    }
+
+    .service_paragraph {
+      color: #cae2ab;
+      font-size: 12px;
+      display: none;
+    }
   </style>
   
   <script src="https://cdn03.jotfor.ms/static/prototype.forms.js?v=3.3.54518" type="text/javascript"></script>
@@ -476,17 +516,17 @@
       <li class="form-line" data-type="control_dropdown" id="id_112"><label class="form-label form-label-top form-label-auto" id="label_112" for="input_112" aria-hidden="false"> Link to Parent Project </label>
         <div id="cid_112" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_112" name="q112_linkTo" style="width:310px" data-component="dropdown" aria-label="Link to Parent Project">
             <option value="">Please Select</option>
-            <option value=""></option>
           </select> </div>
       </li>
       <li class="form-line" data-type="control_textbox" id="id_3"><label class="form-label form-label-top form-label-auto" id="label_3" for="input_3" aria-hidden="false"> New PROPOSAL MANUAL </label>
-        <div id="cid_3" class="form-input-wide" data-layout="half"> <input type="text" id="input_3" name="q3_newProposal" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_3" value="" /> </div>
+        <div id="cid_3" class="form-input-wide" data-layout="half">
+          <input type="text" id="input_3" name="q3_newProposal" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_3" value="" />
+        </div>
       </li>
       <li class="form-line" data-type="control_dropdown" id="id_109"><label class="form-label form-label-top form-label-auto" id="label_109" for="input_109" aria-hidden="false"> Client </label>
         <div id="cid_109" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_109" name="q109_client" style="width:310px" data-component="dropdown" aria-label="Client">
           </select>
-          <!-- <p id="input_109_p"></p> -->
         </div>
       </li>
       <ul class="form-section" id="section_5">
@@ -530,7 +570,7 @@
         </li>
         <li class="form-line form-line-column form-col-7" data-type="control_textbox" id="id_8"><label class="form-label form-label-top" id="label_8" for="input_8" aria-hidden="false"> Fl/Ste/Unit/Apt/# </label>
           <div id="cid_8" class="form-input-wide" data-layout="half">
-            <input readonly type="text" id="input_8" name="q8_typeA" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_8" value="" />
+            <input type="text" id="input_8" name="q8_typeA" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_8" value="" />
           </div>
         </li>
         <li class="form-line form-line-column form-col-8" data-type="control_textbox" id="id_13"><label class="form-label form-label-top" id="label_13" for="input_13" aria-hidden="false"> Block </label>
@@ -546,146 +586,6 @@
         <li class="form-line form-line-column form-col-10" data-type="control_textbox" id="id_15"><label class="form-label form-label-top" id="label_15" for="input_15" aria-hidden="false"> BIN </label>
           <div id="cid_15" class="form-input-wide" data-layout="half">
             <input readonly type="text" id="input_15" name="q15_bin" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_15" value="" />
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-11 always-hidden" data-type="control_text" id="id_113">
-          <div id="cid_113" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_113" class="form-html" data-component="text" tabindex="0">
-              <p><strong><span style="font-size: 18pt;">Bldg No</span></strong></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-12 always-hidden" data-type="control_text" id="id_115">
-          <div id="cid_115" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_115" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>Street</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-13 always-hidden" data-type="control_text" id="id_114">
-          <div id="cid_114" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_114" class="form-html" data-component="text" tabindex="0">
-              <p>{bldgNo}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-14 always-hidden" data-type="control_text" id="id_116">
-          <div id="cid_116" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_116" class="form-html" data-component="text" tabindex="0">
-              <p>{street}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-15 always-hidden" data-type="control_text" id="id_117">
-          <div id="cid_117" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_117" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>City</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-16 always-hidden" data-type="control_text" id="id_118">
-          <div id="cid_118" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_118" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>Zip Code</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-17 always-hidden" data-type="control_text" id="id_119">
-          <div id="cid_119" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_119" class="form-html" data-component="text" tabindex="0">
-              <p>{city}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-18 always-hidden" data-type="control_text" id="id_120">
-          <div id="cid_120" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_120" class="form-html" data-component="text" tabindex="0">
-              <p>{zipCode}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-19 always-hidden" data-type="control_text" id="id_121">
-          <div id="cid_121" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_121" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>Borough</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-20 always-hidden" data-type="control_text" id="id_122">
-          <div id="cid_122" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_122" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>State</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-21 always-hidden" data-type="control_text" id="id_123">
-          <div id="cid_123" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_123" class="form-html" data-component="text" tabindex="0">
-              <p>{borough}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-22 always-hidden" data-type="control_text" id="id_124">
-          <div id="cid_124" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_124" class="form-html" data-component="text" tabindex="0">
-              <p>{state}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-23 always-hidden" data-type="control_text" id="id_125">
-          <div id="cid_125" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_125" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>Fl/Ste/Unit/Apt/#</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-24 always-hidden" data-type="control_text" id="id_126">
-          <div id="cid_126" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_126" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>Block</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-25 always-hidden" data-type="control_text" id="id_127">
-          <div id="cid_127" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_127" class="form-html" data-component="text" tabindex="0">
-              <p>{typeA}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-26 always-hidden" data-type="control_text" id="id_128">
-          <div id="cid_128" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_128" class="form-html" data-component="text" tabindex="0">
-              <p>{block}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-27 always-hidden" data-type="control_text" id="id_129">
-          <div id="cid_129" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_129" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>Lot</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-28 always-hidden" data-type="control_text" id="id_130">
-          <div id="cid_130" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_130" class="form-html" data-component="text" tabindex="0">
-              <p><span style="font-size: 18pt;"><strong>BIN</strong></span></p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-29 always-hidden" data-type="control_text" id="id_131">
-          <div id="cid_131" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_131" class="form-html" data-component="text" tabindex="0">
-              <p>{lot}</p>
-            </div>
-          </div>
-        </li>
-        <li class="form-line form-line-column form-col-30 always-hidden" data-type="control_text" id="id_132">
-          <div id="cid_132" class="form-input-wide always-hidden" data-layout="full">
-            <div id="text_132" class="form-html" data-component="text" tabindex="0">
-              <p>{bin}</p>
-            </div>
           </div>
         </li>
       </ul>
@@ -745,10 +645,10 @@
           </div>
         </li>
         <li class="form-line jf-required" data-type="control_dropdown" id="id_134"><label class="form-label form-label-top form-label-auto" id="label_134" for="input_134" aria-hidden="false"> Assigned Manager 1<span class="form-required">*</span> </label>
-          <div id="cid_134" class="form-input-wide jf-required" data-layout="half"> <select class="form-dropdown validate[required]" id="input_134" name="q134_assignedManager" style="width:310px" data-component="dropdown" required="" aria-label="Assigned Manager 1">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_134" class="form-input-wide jf-required" data-layout="half">
+            <input type="text" id="input_134" name="q134_assignedManager" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_134" value="" />
+            <ul id="ul_134"></ul>
+          </div>
         </li>
         <li class="form-line" data-type="control_checkbox" id="id_135"><label class="form-label form-label-top form-label-auto" id="label_135" for="input_135_0" aria-hidden="true"> </label>
           <div id="cid_135" class="form-input-wide" data-layout="full">
@@ -756,10 +656,10 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_136"><label class="form-label form-label-top form-label-auto" id="label_136" for="input_136" aria-hidden="false"> Assigned Manager 2 </label>
-          <div id="cid_136" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_136" name="q136_assignedManager136" style="width:310px" data-component="dropdown" aria-label="Assigned Manager 2">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_136" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_136" name="q136_assignedManager" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_136" value="" />
+            <ul id="ul_136"></ul>
+          </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_checkbox" id="id_137"><label class="form-label form-label-top form-label-auto" id="label_137" for="input_137_0" aria-hidden="true"> </label>
           <div id="cid_137" class="form-input-wide" data-layout="full">
@@ -767,10 +667,10 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_138"><label class="form-label form-label-top form-label-auto" id="label_138" for="input_138" aria-hidden="false"> Assigned Manager 3 </label>
-          <div id="cid_138" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_138" name="q138_assignedManager138" style="width:310px" data-component="dropdown" aria-label="Assigned Manager 3">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_138" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_138" name="q138_assignedManager138" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_138" value="" />
+            <ul id="ul_138"></ul>
+          </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_checkbox" id="id_139"><label class="form-label form-label-top form-label-auto" id="label_139" for="input_139_0" aria-hidden="true"> </label>
           <div id="cid_139" class="form-input-wide" data-layout="full">
@@ -778,10 +678,10 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_140"><label class="form-label form-label-top form-label-auto" id="label_140" for="input_140" aria-hidden="false"> Assigned Manager 4 </label>
-          <div id="cid_140" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_140" name="q140_assignedManager140" style="width:310px" data-component="dropdown" aria-label="Assigned Manager 4">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_140" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_140" name="q140_assignedManager140" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_140" value="" />
+            <ul id="ul_140"></ul>
+          </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_checkbox" id="id_141"><label class="form-label form-label-top form-label-auto" id="label_141" for="input_141_0" aria-hidden="true"> </label>
           <div id="cid_141" class="form-input-wide" data-layout="full">
@@ -789,16 +689,16 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_142"><label class="form-label form-label-top form-label-auto" id="label_142" for="input_142" aria-hidden="false"> Assigned Manager 5 </label>
-          <div id="cid_142" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_142" name="q142_assignedManager142" style="width:500px" data-component="dropdown" aria-label="Assigned Manager 5">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_142" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_142" name="q142_assignedManager142" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_142" value="" />
+            <ul id="ul_142"></ul>
+          </div>
         </li>
         <li class="form-line" data-type="control_dropdown" id="id_143"><label class="form-label form-label-top form-label-auto" id="label_143" for="input_143" aria-hidden="false"> Assigned Staff 1 </label>
-          <div id="cid_143" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_143" name="q143_assignedStaff" style="width:310px" data-component="dropdown" aria-label="Assigned Staff 1">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_143" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_143" name="q143_assignedStaff" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_143" value="" />
+            <ul id="ul_143"></ul>
+          </div>
         </li>
         <li class="form-line" data-type="control_checkbox" id="id_144"><label class="form-label form-label-top form-label-auto" id="label_144" for="input_144_0" aria-hidden="true"> </label>
           <div id="cid_144" class="form-input-wide" data-layout="full">
@@ -806,10 +706,10 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_145"><label class="form-label form-label-top form-label-auto" id="label_145" for="input_145" aria-hidden="false"> Assigned Staff 2 </label>
-          <div id="cid_145" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_145" name="q145_assignedStaff145" style="width:310px" data-component="dropdown" aria-label="Assigned Staff 2">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_145" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_145" name="q145_assignedStaff145" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_145" value="" />
+            <ul id="ul_145"></ul>
+          </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_checkbox" id="id_146"><label class="form-label form-label-top form-label-auto" id="label_146" for="input_146_0" aria-hidden="true"> </label>
           <div id="cid_146" class="form-input-wide" data-layout="full">
@@ -817,10 +717,10 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_147"><label class="form-label form-label-top form-label-auto" id="label_147" for="input_147" aria-hidden="false"> Assigned Staff 3 </label>
-          <div id="cid_147" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_147" name="q147_assignedStaff147" style="width:310px" data-component="dropdown" aria-label="Assigned Staff 3">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_147" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_147" name="q147_assignedStaff147" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_147" value="" />
+            <ul id="ul_147"></ul>
+          </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_checkbox" id="id_148"><label class="form-label form-label-top form-label-auto" id="label_148" for="input_148_0" aria-hidden="true"> </label>
           <div id="cid_148" class="form-input-wide" data-layout="full">
@@ -828,10 +728,10 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_149"><label class="form-label form-label-top form-label-auto" id="label_149" for="input_149" aria-hidden="false"> Assigned Staff 4 </label>
-          <div id="cid_149" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_149" name="q149_assignedStaff149" style="width:310px" data-component="dropdown" aria-label="Assigned Staff 4">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_149" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_149" name="q149_assignedStaff149" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_149" value="" />
+            <ul id="ul_149"></ul>
+          </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_checkbox" id="id_150"><label class="form-label form-label-top form-label-auto" id="label_150" for="input_150_0" aria-hidden="true"> </label>
           <div id="cid_150" class="form-input-wide" data-layout="full">
@@ -839,10 +739,10 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_151"><label class="form-label form-label-top form-label-auto" id="label_151" for="input_151" aria-hidden="false"> Assigned Staff 5 </label>
-          <div id="cid_151" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_151" name="q151_assignedStaff151" style="width:310px" data-component="dropdown" aria-label="Assigned Staff 5">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_151" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_151" name="q151_assignedStaff151" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_151" value="" />
+            <ul id="ul_151"></ul>
+          </div>
         </li>
         <li class="form-line" data-type="control_textarea" id="id_24"><label class="form-label form-label-top form-label-auto" id="label_24" for="input_24" aria-hidden="false"> Internal Project Notes </label>
           <div id="cid_24" class="form-input-wide" data-layout="full"> <textarea id="input_24" class="form-textarea" name="q24_internalProject" style="width:648px;height:163px" data-component="textarea" aria-labelledby="label_24"></textarea> </div>
@@ -857,10 +757,11 @@
           <div id="cid_29" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_29" name="q29_retainer" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_29" required="" value="" /> </div>
         </li>
         <li class="form-line jf-required" data-type="control_dropdown" id="id_30"><label class="form-label form-label-top form-label-auto" id="label_30" for="input_30" aria-hidden="false"> Services 1<span class="form-required">*</span> </label>
-          <div id="cid_30" class="form-input-wide jf-required" data-layout="half"> <select class="form-dropdown validate[required]" id="input_30" name="q30_services1" style="width:310px" data-component="dropdown" required="" aria-label="Services 1">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_30" class="form-input-wide jf-required" data-layout="half">
+            <input type="text" id="input_30" name="q30_services1" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_30" value="" />
+            <ul id="ul_30"></ul>
+            <p id="p_30" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 jf-required" data-type="control_textbox" id="id_31"><label class="form-label form-label-top" id="label_31" for="input_31" aria-hidden="false"> Qty 1<span class="form-required">*</span> </label>
           <div id="cid_31" class="form-input-wide jf-required" data-layout="half"> <input type="text" id="input_31" name="q31_qty1" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_31" required="" value="1" /> </div>
@@ -874,10 +775,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_33"><label class="form-label form-label-top form-label-auto" id="label_33" for="input_33" aria-hidden="false"> Services 2 </label>
-          <div id="cid_33" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_33" name="q33_services2" style="width:310px" data-component="dropdown" aria-label="Services 2">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_33" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_33" name="q33_services2" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_33" value="" />
+            <ul id="ul_33"></ul>
+            <p id="p_33" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_52"><label class="form-label form-label-top" id="label_52" for="input_52" aria-hidden="false"> Qty 2 </label>
           <div id="cid_52" class="form-input-wide" data-layout="half"> <input type="text" id="input_52" name="q52_qty2" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_52" value="1" /> </div>
@@ -891,10 +793,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_34"><label class="form-label form-label-top form-label-auto" id="label_34" for="input_34" aria-hidden="false"> Services 3 </label>
-          <div id="cid_34" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_34" name="q34_services3" style="width:310px" data-component="dropdown" aria-label="Services 3">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_34" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_34" name="q34_services3" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_34" value="" />
+            <ul id="ul_34"></ul>
+            <p id="p_34" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_53"><label class="form-label form-label-top" id="label_53" for="input_53" aria-hidden="false"> Qty 3 </label>
           <div id="cid_53" class="form-input-wide" data-layout="half"> <input type="text" id="input_53" name="q53_qty3" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_53" value="1" /> </div>
@@ -908,10 +811,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_35"><label class="form-label form-label-top form-label-auto" id="label_35" for="input_35" aria-hidden="false"> Services 4 </label>
-          <div id="cid_35" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_35" name="q35_services4" style="width:310px" data-component="dropdown" aria-label="Services 4">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_35" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_35" name="q35_services4" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_35" value="" />
+            <ul id="ul_35"></ul>
+            <p id="p_35" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_54"><label class="form-label form-label-top" id="label_54" for="input_54" aria-hidden="false"> Qty 4 </label>
           <div id="cid_54" class="form-input-wide" data-layout="half"> <input type="text" id="input_54" name="q54_qty4" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_54" value="1" /> </div>
@@ -925,10 +829,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_36"><label class="form-label form-label-top form-label-auto" id="label_36" for="input_36" aria-hidden="false"> Services 5 </label>
-          <div id="cid_36" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_36" name="q36_services5" style="width:310px" data-component="dropdown" aria-label="Services 5">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_36" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_36" name="q36_services5" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_36" value="" />
+            <ul id="ul_36"></ul>
+            <p id="p_36" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_55"><label class="form-label form-label-top" id="label_55" for="input_55" aria-hidden="false"> Qty 5 </label>
           <div id="cid_55" class="form-input-wide" data-layout="half"> <input type="text" id="input_55" name="q55_qty5" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_55" value="1" /> </div>
@@ -942,10 +847,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_37"><label class="form-label form-label-top form-label-auto" id="label_37" for="input_37" aria-hidden="false"> Services 6 </label>
-          <div id="cid_37" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_37" name="q37_services6" style="width:310px" data-component="dropdown" aria-label="Services 6">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_37" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_37" name="q37_services6" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_37" value="" />
+            <ul id="ul_37"></ul>
+            <p id="p_37" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_56"><label class="form-label form-label-top" id="label_56" for="input_56" aria-hidden="false"> Qty 6 </label>
           <div id="cid_56" class="form-input-wide" data-layout="half"> <input type="text" id="input_56" name="q56_qty6" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_56" value="1" /> </div>
@@ -959,10 +865,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_38"><label class="form-label form-label-top form-label-auto" id="label_38" for="input_38" aria-hidden="false"> Services 7 </label>
-          <div id="cid_38" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_38" name="q38_services7" style="width:310px" data-component="dropdown" aria-label="Services 7">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_38" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_38" name="q38_services7" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_38" value="" />
+            <ul id="ul_38"></ul>
+            <p id="p_38" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_57"><label class="form-label form-label-top" id="label_57" for="input_57" aria-hidden="false"> Qty 7 </label>
           <div id="cid_57" class="form-input-wide" data-layout="half"> <input type="text" id="input_57" name="q57_qty7" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_57" value="1" /> </div>
@@ -976,10 +883,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_39"><label class="form-label form-label-top form-label-auto" id="label_39" for="input_39" aria-hidden="false"> Services 8 </label>
-          <div id="cid_39" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_39" name="q39_services8" style="width:310px" data-component="dropdown" aria-label="Services 8">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_39" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_39" name="q39_services8" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_39" value="" />
+            <ul id="ul_39"></ul>
+            <p id="p_39" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_58"><label class="form-label form-label-top" id="label_58" for="input_58" aria-hidden="false"> Qty 8 </label>
           <div id="cid_58" class="form-input-wide" data-layout="half"> <input type="text" id="input_58" name="q58_qty8" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_58" value="1" /> </div>
@@ -993,10 +901,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_40"><label class="form-label form-label-top form-label-auto" id="label_40" for="input_40" aria-hidden="false"> Services 9 </label>
-          <div id="cid_40" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_40" name="q40_services9" style="width:310px" data-component="dropdown" aria-label="Services 9">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_40" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_40" name="q40_services9" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_40" value="" />
+            <ul id="ul_40"></ul>
+            <p id="p_40" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_59"><label class="form-label form-label-top" id="label_59" for="input_59" aria-hidden="false"> Qty 9 </label>
           <div id="cid_59" class="form-input-wide" data-layout="half"> <input type="text" id="input_59" name="q59_qty9" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_59" value="1" /> </div>
@@ -1010,10 +919,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_41"><label class="form-label form-label-top form-label-auto" id="label_41" for="input_41" aria-hidden="false"> Services 10 </label>
-          <div id="cid_41" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_41" name="q41_services10" style="width:310px" data-component="dropdown" aria-label="Services 10">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_41" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_41" name="q41_services10" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_41" value="" />
+            <ul id="ul_41"></ul>
+            <p id="p_41" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_60"><label class="form-label form-label-top" id="label_60" for="input_60" aria-hidden="false"> Qty 10 </label>
           <div id="cid_60" class="form-input-wide" data-layout="half"> <input type="text" id="input_60" name="q60_qty10" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_60" value="1" /> </div>
@@ -1027,10 +937,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_42"><label class="form-label form-label-top form-label-auto" id="label_42" for="input_42" aria-hidden="false"> Services 11 </label>
-          <div id="cid_42" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_42" name="q42_services11" style="width:310px" data-component="dropdown" aria-label="Services 11">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_42" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_42" name="q42_services11" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_42" value="" />
+            <ul id="ul_42"></ul>
+            <p id="p_42" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_61"><label class="form-label form-label-top" id="label_61" for="input_61" aria-hidden="false"> Qty 11 </label>
           <div id="cid_61" class="form-input-wide" data-layout="half"> <input type="text" id="input_61" name="q61_qty11" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_61" value="1" /> </div>
@@ -1044,10 +955,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_43"><label class="form-label form-label-top form-label-auto" id="label_43" for="input_43" aria-hidden="false"> Services 12 </label>
-          <div id="cid_43" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_43" name="q43_services12" style="width:310px" data-component="dropdown" aria-label="Services 12">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_43" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_43" name="q43_services12" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_43" value="" />
+            <ul id="ul_43"></ul>
+            <p id="p_43" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_62"><label class="form-label form-label-top" id="label_62" for="input_62" aria-hidden="false"> Qty 12 </label>
           <div id="cid_62" class="form-input-wide" data-layout="half"> <input type="text" id="input_62" name="q62_qty12" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_62" value="1" /> </div>
@@ -1061,10 +973,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_44"><label class="form-label form-label-top form-label-auto" id="label_44" for="input_44" aria-hidden="false"> Services 13 </label>
-          <div id="cid_44" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_44" name="q44_services13" style="width:310px" data-component="dropdown" aria-label="Services 13">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_44" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_44" name="q44_services13" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_43" value="" />
+            <ul id="ul_44"></ul>
+            <p id="p_44" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_63"><label class="form-label form-label-top" id="label_63" for="input_63" aria-hidden="false"> Qty 13 </label>
           <div id="cid_63" class="form-input-wide" data-layout="half"> <input type="text" id="input_63" name="q63_qty13" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_63" value="1" /> </div>
@@ -1078,10 +991,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_45"><label class="form-label form-label-top form-label-auto" id="label_45" for="input_45" aria-hidden="false"> Services 14 </label>
-          <div id="cid_45" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_45" name="q45_services14" style="width:310px" data-component="dropdown" aria-label="Services 14">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_45" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_45" name="q45_services14" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_45" value="" />
+            <ul id="ul_45"></ul>
+            <p id="p_45" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_64"><label class="form-label form-label-top" id="label_64" for="input_64" aria-hidden="false"> Qty 14 </label>
           <div id="cid_64" class="form-input-wide" data-layout="half"> <input type="text" id="input_64" name="q64_qty14" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_64" value="1" /> </div>
@@ -1095,10 +1009,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_46"><label class="form-label form-label-top form-label-auto" id="label_46" for="input_46" aria-hidden="false"> Services 15 </label>
-          <div id="cid_46" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_46" name="q46_services15" style="width:310px" data-component="dropdown" aria-label="Services 15">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_46" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_46" name="q46_services15" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_46" value="" />
+            <ul id="ul_46"></ul>
+            <p id="p_46" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_65"><label class="form-label form-label-top" id="label_65" for="input_65" aria-hidden="false"> Qty 15 </label>
           <div id="cid_65" class="form-input-wide" data-layout="half"> <input type="text" id="input_65" name="q65_qty15" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_65" value="1" /> </div>
@@ -1112,10 +1027,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_47"><label class="form-label form-label-top form-label-auto" id="label_47" for="input_47" aria-hidden="false"> Services 16 </label>
-          <div id="cid_47" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_47" name="q47_services16" style="width:310px" data-component="dropdown" aria-label="Services 16">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_47" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_47" name="q47_services16" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_47" value="" />
+            <ul id="ul_47"></ul>
+            <p id="p_47" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_66"><label class="form-label form-label-top" id="label_66" for="input_66" aria-hidden="false"> Qty 16 </label>
           <div id="cid_66" class="form-input-wide" data-layout="half"> <input type="text" id="input_66" name="q66_qty16" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_66" value="1" /> </div>
@@ -1129,10 +1045,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_48"><label class="form-label form-label-top form-label-auto" id="label_48" for="input_48" aria-hidden="false"> Services 17 </label>
-          <div id="cid_48" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_48" name="q48_services17" style="width:310px" data-component="dropdown" aria-label="Services 17">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_48" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_48" name="q48_services17" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_48" value="" />
+            <ul id="ul_48"></ul>
+            <p id="p_48" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_67"><label class="form-label form-label-top" id="label_67" for="input_67" aria-hidden="false"> Qty 17 </label>
           <div id="cid_67" class="form-input-wide" data-layout="half"> <input type="text" id="input_67" name="q67_qty17" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_67" value="1" /> </div>
@@ -1146,10 +1063,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_49"><label class="form-label form-label-top form-label-auto" id="label_49" for="input_49" aria-hidden="false"> Services 18 </label>
-          <div id="cid_49" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_49" name="q49_services18" style="width:310px" data-component="dropdown" aria-label="Services 18">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_49" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_49" name="q49_services18" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_49" value="" />
+            <ul id="ul_49"></ul>
+            <p id="p_49" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_68"><label class="form-label form-label-top" id="label_68" for="input_68" aria-hidden="false"> Qty 18 </label>
           <div id="cid_68" class="form-input-wide" data-layout="half"> <input type="text" id="input_68" name="q68_qty18" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_68" value="1" /> </div>
@@ -1163,10 +1081,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_50"><label class="form-label form-label-top form-label-auto" id="label_50" for="input_50" aria-hidden="false"> Services 19 </label>
-          <div id="cid_50" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_50" name="q50_services19" style="width:310px" data-component="dropdown" aria-label="Services 19">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_50" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_50" name="q50_services19" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_50" value="" />
+            <ul id="ul_50"></ul>
+            <p id="p_50" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_69"><label class="form-label form-label-top" id="label_69" for="input_69" aria-hidden="false"> Qty 19 </label>
           <div id="cid_69" class="form-input-wide" data-layout="half"> <input type="text" id="input_69" name="q69_qty19" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_69" value="1" /> </div>
@@ -1180,10 +1099,11 @@
           </div>
         </li>
         <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_51"><label class="form-label form-label-top form-label-auto" id="label_51" for="input_51" aria-hidden="false"> Services 20 </label>
-          <div id="cid_51" class="form-input-wide" data-layout="half"> <select class="form-dropdown" id="input_51" name="q51_services20" style="width:310px" data-component="dropdown" aria-label="Services 20">
-              <option value="">Please Select</option>
-              <option value=""></option>
-            </select> </div>
+          <div id="cid_51" class="form-input-wide" data-layout="half">
+            <input type="text" id="input_51" name="q51_services20" data-type="input-textbox" class="form-textbox" data-defaultvalue="" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_51" value="" />
+            <ul id="ul_51"></ul>
+            <p id="p_51" class="service_paragraph"></p>
+          </div>
         </li>
         <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_textbox" id="id_70"><label class="form-label form-label-top" id="label_70" for="input_70" aria-hidden="false"> Qty 20 </label>
           <div id="cid_70" class="form-input-wide" data-layout="half"> <input type="text" id="input_70" name="q70_qty20" data-type="input-textbox" class="form-textbox" data-defaultvalue="1" style="width:310px" size="310" data-component="textbox" aria-labelledby="label_70" value="1" /> </div>
@@ -1258,6 +1178,18 @@
       return data;
     }
 
+    function populateSelect(selectElement, options) {
+      // Add new options
+      options.forEach(option => {
+        const opt = document.createElement('option');
+        opt.value = option.id;
+        opt.innerText = option.fields['Proposal'];
+        selectElement.appendChild(opt);
+      });
+    }
+  </script>
+
+  <script>
     let baseId = 'apphyPAEq7ZqPB9bI';
     let tableProposalsId = 'tblGv8rvedxA22n5N';
     let tableServicesId = 'tbl83enEWfQ9JvYu7';
@@ -1265,12 +1197,28 @@
     let tableStaffID = 'tblNASnN9OGIqvEQp';
     let apiKey = 'patS95YTuUL2HjlB5.57c45b205e5ba6ecb7a2527c9ad2b97a160063b05cdd345e3fa7fca3e58acb05';
 
-    const selectServicesIds = [
+    const inputServicesIds = [
       'input_30', 'input_33', 'input_34', 'input_35', 'input_36',
       'input_37', 'input_38', 'input_39', 'input_40', 'input_41',
       'input_42', 'input_43', 'input_44', 'input_45', 'input_46',
       'input_47', 'input_48', 'input_49', 'input_50', 'input_51'
     ];
+
+    const ulServicesIds = [
+      'ul_30', 'ul_33', 'ul_34', 'ul_35', 'ul_36',
+      'ul_37', 'ul_38', 'ul_39', 'ul_40', 'ul_41',
+      'ul_42', 'ul_43', 'ul_44', 'ul_45', 'ul_46',
+      'ul_47', 'ul_48', 'ul_49', 'ul_50', 'ul_51'
+    ];
+
+    const paragrapghServicesIds = [
+      'p_30', 'p_33', 'p_34', 'p_35', 'p_36',
+      'p_37', 'p_38', 'p_39', 'p_40', 'p_41',
+      'p_42', 'p_43', 'p_44', 'p_45', 'p_46',
+      'p_47', 'p_48', 'p_49', 'p_50', 'p_51'
+    ];
+
+    let services  = [];
 
     fetchAllRecords(baseId, tableServicesId, apiKey)
         .then(records => {
@@ -1282,185 +1230,211 @@
               return 0;
             });
 
-            // console.log(servicesSorted);
-            
-            // Function to populate a select element with options
-            function populateSelect(selectElement, options) {
-              // Clear existing options
-              selectElement.innerHTML = '';
-              selectElement.innerHTML += `<option value="">Please select...</option>`
-
-              // Add new options
-              options.forEach(option => {
-                const opt = document.createElement('option');
-                opt.value = option.id;
-                opt.innerText = option.fields['Service ID'];
-                selectElement.appendChild(opt);
-              });
-            }
-
-            // Iterate over each select element and add options
-            selectServicesIds.forEach(selectId => {
-              const selectElement = document.getElementById(selectId);
-              populateSelect(selectElement, servicesSorted);
-            });
+            services = servicesSorted;
         })
         .catch(error => {
             console.error('Error fetching records:', error);
         });
 
-        function populateSelect(selectElement, options) {
-          // Clear existing options
-          // selectElement.innerHTML = '';
+        // Function to display records in the ul list
+        function displayServices(records, ul, input, paragraph) {
+          ul.innerHTML = '';
+          for (let record of records) {
+            let serviceId = record.id;
+            let serviceName = record.fields['Service ID'];
 
-          // Add new options
-          options.forEach(option => {
-            const opt = document.createElement('option');
-            opt.value = option.id;
-            opt.innerText = option.fields['Proposal'];
-            selectElement.appendChild(opt);
-          });
+            const li = document.createElement('li');
+            li.innerText = serviceName;
+            li.style.cursor = "pointer";
+            li.addEventListener('click', () => {
+              input.value = serviceName;
+              ul.style.display = "none";
+              displayPriceTiers(record, paragraph);
+            });
+            ul.appendChild(li);
+          }
         }
 
-    fetchAllRecords(baseId, tableStaffID, apiKey)
-        .then(recordsStaff => {
-            // console.log(recordsStaff);
+        // Function to filter records based on user input
+        function filterServices(event, ul, paragraph) {
+            const searchTerm = event.target.value.toLowerCase();
+            if (searchTerm) {
+                const filteredRecords = services.filter(record =>
+                    record.fields['Service ID'] && record.fields['Service ID'].toLowerCase().includes(searchTerm)
+                );
+                displayServices(filteredRecords, ul, event.target, paragraph);
+                ul.style.display = "block";
+            } else {
+                ul.style.display = "none";
+                paragraph.style.display = "none";
+                paragraph.innerText = "";
+            }
+        }
 
-            const assignedManagersInputs = [
-              'input_134', 'input_136', 'input_138', 'input_140', 'input_142', 'input_143', 'input_145', 'input_147', 'input_149', 'input_151'
+        // Function to display price tiers in the paragraph
+        function displayPriceTiers(record, paragraph) {
+            const priceTiers = [
+                `Price tier 1: ${record.fields['Price tier 1'] || 'N/A'}$`,
+                `Price tier 2: ${record.fields['Price tier 2'] || 'N/A'}$`,
+                `Price tier 3: ${record.fields['Price tier 3'] || 'N/A'}$`,
+                `Price tier 4: ${record.fields['Price tier 4'] || 'N/A'}$`
             ];
+            paragraph.innerText = priceTiers.join(', ');
+            paragraph.style.display = "block";
+        }
 
-            // populateSelect(assignedManagersInputs, recordsStaff);
+        // Add event listeners to each input field and corresponding ul
+        inputServicesIds.forEach((inputId, index) => {
+            const inputElement = document.getElementById(inputId);
+            const ulElement = document.getElementById(ulServicesIds[index]);
+            const paragraphElement = document.getElementById(paragrapghServicesIds[index]);
+            inputElement.addEventListener('input', (event) => filterServices(event, ulElement, paragraphElement));
+        });
+  </script>
 
-            assignedManagersInputs.forEach(managerInput => {
-              recordsStaff.forEach(record => {
-                const opt = document.createElement('option');
-                opt.value = record.id;
-                opt.innerText = record.fields['Email'];
-                document.getElementById(managerInput).appendChild(opt);
-              });
+  <script>
+    const staffInputs = [
+      'input_134', 'input_136', 'input_138', 'input_140', 'input_142', 'input_143', 'input_145', 'input_147', 'input_149', 'input_151'
+    ];
+
+    const staffUls = [
+      'ul_134', 'ul_136', 'ul_138', 'ul_140', 'ul_142', 'ul_143', 'ul_145', 'ul_147', 'ul_149', 'ul_151'
+    ];
+
+    let staff = [];
+
+    fetchAllRecords(baseId, tableStaffID, apiKey)
+      .then(recordsStaff => {
+        staff = recordsStaff;
+      }).catch(error => {
+        console.error('Error fetching records:', error);
+      });
+
+    // Function to display records in the ul list
+    function displayStaff(records, ul, input) {
+        ul.innerHTML = '';
+        for (let record of records) {
+            let staffId = record.id;
+            let staffName = record.fields['Email'];
+
+            const li = document.createElement('li');
+            li.innerText = staffName;
+            li.style.cursor = "pointer";
+            li.addEventListener('click', () => {
+                input.value = staffName;
+                ul.style.display = "none";
             });
-                fetchAllRecords(baseId, tableProposalsId, apiKey)
-                  .then(records => {
-                    // console.log(records);
-                      let proposalsSorted = records.sort((a, b) => {
-                        const nameA = a.fields['Proposal'].toLowerCase();
-                        const nameB = b.fields['Proposal'].toLowerCase();
-                        if (nameA < nameB) return -1;
-                        if (nameA > nameB) return 1;
-                        return 0;
-                      });
+            ul.appendChild(li);
+        }
+    }
 
-                      // console.log(proposalsSorted);
+    // Function to filter records based on user input
+    function filterStaff(event, ul) {
+        const searchTerm = event.target.value.toLowerCase();
+        if (searchTerm) {
+            const filteredRecords = staff.filter(record =>
+                record.fields['Email'] && record.fields['Email'].toLowerCase().includes(searchTerm)
+            );
+            displayStaff(filteredRecords, ul, event.target);
+            ul.style.display = "block";
+        } else {
+            ul.style.display = "none";
+        }
+    }
 
-                      // Function to populate a select element with options
-                      // function populateSelect(selectElement, options) {
-                      //   // Clear existing options
-                      //   // selectElement.innerHTML = '';
+    // Add event listeners to each input field and corresponding ul
+    staffInputs.forEach((inputId, index) => {
+        const inputElement = document.getElementById(inputId);
+        const ulElement = document.getElementById(staffUls[index]);
+        inputElement.addEventListener('input', (event) => filterStaff(event, ulElement));
+    });
+  </script>
 
-                      //   // Add new options
-                      //   options.forEach(option => {
-                      //     const opt = document.createElement('option');
-                      //     opt.value = option.id;
-                      //     opt.innerText = option.fields['Proposal'];
-                      //     selectElement.appendChild(opt);
-                      //   });
-                      // }
+  <script>
+    fetchAllRecords(baseId, tableProposalsId, apiKey)
+      .then(records => {
+        // Filter the records to include only "New Proposal" and "Invoice Only"
+        const filteredRecords = records.filter(record => 
+          record.fields['Type'] === 'New Proposal' || record.fields['Type'] === 'Invoice Only'
+        );
 
-                      populateSelect(document.getElementById('input_112'), proposalsSorted);
-
-                      document.getElementById('input_112').addEventListener('change', (event) => {
-                        const selectedValue = event.target.value;
-
-                        // Search for the object with the same recordId
-                        const selectedRecord = proposalsSorted.find(record => record.id === selectedValue);
-                        // console.log(selectedRecord);
-
-                        // Log the found object
-                        if (selectedRecord) {
-                          let recordFields = selectedRecord.fields;
-                          // console.log(recordFields);
-
-                          // let getClientURL = `https://api.airtable.com/v0/${baseId}/${tableClientsId}/${recordFields['Client'][0]}`;
-                          fetchRecord(baseId, tableClientsId, recordFields.Client[0], apiKey)
-                            .then(record => {
-                              // console.log(record);
-
-                              let option = document.createElement('option');
-                              option.value = record.id;
-                              option.innerText = record.fields['Full Name'];
-
-                              document.getElementById('input_109').appendChild(option);
-                              document.getElementById('input_109').value = record.id;
-                            })
-
-
-                          // let selectedClient = recordsClients.find(client => client.id === recordFields['Client'][0])
-                          document.getElementById('header_1').innerText = `Change Form for proposal #${recordFields.Proposal}`; // dynamic heading of form
-                          // document.getElementById('input_109_p').innerText = selectedClient['Full Name'];
-                          document.getElementById('input_6').value = recordFields['Bldg No']
-                          document.getElementById('input_7').value = recordFields['Street'];
-                          document.getElementById('input_9').value = recordFields['City'];
-                          document.getElementById('input_12').value = recordFields['Zip code'];
-                          document.getElementById('input_16').value = recordFields['Borough'];
-                          document.getElementById('input_17').value = recordFields['State'];
-                          document.getElementById('input_8').value = recordFields['Fl/Ste/Unit/Apt/#'];
-                          document.getElementById('input_13').value = recordFields['Block'];
-                          document.getElementById('input_14').value = recordFields['Lot'];
-                          document.getElementById('input_15').value = recordFields['BIN'];
-
-                          document.getElementById('input_20').value = recordFields['Status'];
-                          document.getElementById('input_21').value = recordFields['Scope of Work (summary)'];
-
-                          let radiobuttons = document.querySelectorAll('input[name="q22_priceTier"]');
-                          radiobuttons.forEach(radiobutton => {
-                            if (radiobutton.value === String(recordFields['Price tier'])) {
-                              radiobutton.checked = true;
-                            }
-                          });
-
-                          let assignedManagers = recordFields['Assigned Manager'];
-                          for (let i = 0; i < assignedManagers.length; i++) {
-                            document.getElementById(assignedManagersInputs[i]).value = assignedManagers[i];
-                          }
-                          // let assignedManagersInfo = recordsStaff.filter(staffMember => assignedManagers.includes(staffMember.id));
-                          // console.log(assignedManagersInfo);
-                          // let managersDiv = document.getElementById('managers_div_133');
-                          // managersDiv.innerHTML = '';
-                          // assignedManagersInfo.forEach(manager => {
-                          //   managersDiv.innerHTML += `<span class="form-checkbox-item" style="clear:left"><span class="dragger-item"></span>`;
-                          //   managersDiv.innerHTML += `<input type="checkbox" aria-describedby="label_133" class="form-checkbox" id="input_133_${manager.id}" name="q133_assignedManager133[]" value="${manager.id}" />`
-                          //   managersDiv.innerHTML += `<label id="label_input_133_${manager.id}" for="input_133_${manager.id}">${manager.fields.Email}</label>`;
-                          //   managersDiv.innerHTML += `</span>`
-                          // })
-
-                          document.getElementById('input_24').value = recordFields['Internal Project Notes'];
-                          document.getElementById('input_26').value = recordFields['Internal Billing Notes'];
-                        } else {
-                          console.log('Record not found');
-                        }
-                      });
-                  })
-                  .catch(error => {
-                      console.error('Error fetching records:', error);
-                  });
-
-              })
-              .catch(error => {
-                console.error(error);
-              })
-    
-        let dropdowns = document.querySelectorAll('.form-dropdown');
-
-        // If you need to store the ids in an array
-        let dropdownIds = [];
-        dropdowns.forEach(dropdown => {
-          dropdownIds.push(dropdown.id);
+        let proposalsSorted = filteredRecords.sort((a, b) => {
+          const nameA = a.fields['Proposal'].toLowerCase();
+          const nameB = b.fields['Proposal'].toLowerCase();
+          if (nameA < nameB) return -1;
+          if (nameA > nameB) return 1;
+          return 0;
         });
 
-        dropdownIds.forEach(dropdown => {
-          document.getElementById(dropdown).style.color = 'rgba(214,226,186,255)';
+        populateSelect(document.getElementById('input_112'), proposalsSorted);
+
+          document.getElementById('input_112').addEventListener('change', (event) => {
+            const selectedValue = event.target.value;
+
+            // Search for the object with the same recordId
+            const selectedRecord = proposalsSorted.find(record => record.id === selectedValue);
+
+            // Log the found object
+            if (selectedRecord) {
+              let recordFields = selectedRecord.fields;
+
+              fetchRecord(baseId, tableClientsId, recordFields.Client[0], apiKey)
+                .then(record => {
+                  let option = document.createElement('option');
+                  option.value = record.id;
+                  option.innerText = record.fields['Full Name'];
+
+                  document.getElementById('input_109').appendChild(option);
+                  document.getElementById('input_109').value = record.id;
+                })
+
+              document.getElementById('header_1').innerText = `Change Form for proposal #${recordFields.Proposal}`; // dynamic heading of form
+
+              document.getElementById('input_6').value = recordFields['Bldg No']
+              document.getElementById('input_7').value = recordFields['Street'];
+              document.getElementById('input_9').value = recordFields['City'];
+              document.getElementById('input_12').value = recordFields['Zip code'];
+              document.getElementById('input_16').value = recordFields['Borough'];
+              document.getElementById('input_17').value = recordFields['State'];
+              document.getElementById('input_8').value = recordFields['Fl/Ste/Unit/Apt/#'];
+              document.getElementById('input_13').value = recordFields['Block'];
+              document.getElementById('input_14').value = recordFields['Lot'];
+              document.getElementById('input_15').value = recordFields['BIN'];
+
+              document.getElementById('input_20').value = recordFields['Status'];
+              document.getElementById('input_21').value = recordFields['Scope of Work (summary)'];
+
+              let radiobuttons = document.querySelectorAll('input[name="q22_priceTier"]');
+              radiobuttons.forEach(radiobutton => {
+                if (radiobutton.value === String(recordFields['Price tier'])) {
+                  radiobutton.checked = true;
+                }
+              });
+
+              document.getElementById('input_24').value = recordFields['Internal Project Notes'];
+              document.getElementById('input_26').value = recordFields['Internal Billing Notes'];
+            } else {
+              console.log('Record not found');
+            }
+          });
         })
+        .catch(error => {
+          console.error('Error fetching records:', error);
+        });
+  </script>
+
+  <script>
+    let dropdowns = document.querySelectorAll('.form-dropdown');
+
+    // If you need to store the ids in an array
+    let dropdownIds = [];
+    dropdowns.forEach(dropdown => {
+      dropdownIds.push(dropdown.id);
+    });
+
+    dropdownIds.forEach(dropdown => {
+      document.getElementById(dropdown).style.color = 'rgba(214,226,186,255)';
+    })
   </script>
   <script>
     JotForm.showJotFormPowered = "old_footer";
